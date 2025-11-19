@@ -39,7 +39,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.cboWeapons = new System.Windows.Forms.ComboBox();
             this.cboPotions = new System.Windows.Forms.ComboBox();
-            this.btnUseWeapons = new System.Windows.Forms.Button();
+            this.btnUseWeapon = new System.Windows.Forms.Button();
             this.btnUsePotion = new System.Windows.Forms.Button();
             this.btnNorth = new System.Windows.Forms.Button();
             this.btnEast = new System.Windows.Forms.Button();
@@ -146,15 +146,15 @@
             this.cboPotions.Size = new System.Drawing.Size(121, 21);
             this.cboPotions.TabIndex = 10;
             // 
-            // btnUseWeapons
+            // btnUseWeapon
             // 
-            this.btnUseWeapons.Location = new System.Drawing.Point(620, 559);
-            this.btnUseWeapons.Name = "btnUseWeapons";
-            this.btnUseWeapons.Size = new System.Drawing.Size(75, 23);
-            this.btnUseWeapons.TabIndex = 11;
-            this.btnUseWeapons.Text = "Use";
-            this.btnUseWeapons.UseVisualStyleBackColor = true;
-            this.btnUseWeapons.Click += new System.EventHandler(this.btnUseWeapons_Click);
+            this.btnUseWeapon.Location = new System.Drawing.Point(620, 559);
+            this.btnUseWeapon.Name = "btnUseWeapon";
+            this.btnUseWeapon.Size = new System.Drawing.Size(75, 23);
+            this.btnUseWeapon.TabIndex = 11;
+            this.btnUseWeapon.Text = "Use";
+            this.btnUseWeapon.UseVisualStyleBackColor = true;
+            this.btnUseWeapon.Click += new System.EventHandler(this.btnUseWeapons_Click);
             // 
             // btnUsePotion
             // 
@@ -268,7 +268,7 @@
             this.Controls.Add(this.btnEast);
             this.Controls.Add(this.btnNorth);
             this.Controls.Add(this.btnUsePotion);
-            this.Controls.Add(this.btnUseWeapons);
+            this.Controls.Add(this.btnUseWeapon);
             this.Controls.Add(this.cboPotions);
             this.Controls.Add(this.cboWeapons);
             this.Controls.Add(this.label5);
@@ -302,7 +302,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox cboWeapons;
         private System.Windows.Forms.ComboBox cboPotions;
-        private System.Windows.Forms.Button btnUseWeapons;
+        private System.Windows.Forms.Button btnUseWeapon;
         private System.Windows.Forms.Button btnUsePotion;
         private System.Windows.Forms.Button btnNorth;
         private System.Windows.Forms.Button btnEast;
